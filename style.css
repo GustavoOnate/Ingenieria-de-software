@@ -28,3 +28,53 @@ img {
 img:hover {
 transform: scale(1.1);
 }
+
+p{
+    text-align: center;
+    background: yellowgreen;
+    width: 70%;
+    margin: auto;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 15px;
+    color: blue;
+}
+
+p:hover {
+    background: turquoise;
+    /*color: yellowgreen;
+    font-size: 30px;
+    transition: all 0.5s ease;*/
+}
+
+h3{
+    width: 80%;
+    margin: auto;
+    background: lightskyblue;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+ul, ol{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+ol{
+    background: lightskyblue;
+    border-radius: 15px;
+}
+
+a{
+    background: lightslategray;
+    color: black;
+    padding: 20px;
+    display: block;
+    margin: 40px auto;
+    border-radius: 15px;
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+}
